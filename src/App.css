@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@use postcss-preset-env {
+  stage: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* helpers/grid.css */
+
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 48em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* helpers/sticky.css */
+
+.sticky {
+  position: sticky;
+  will-change: transform;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sticky--top {
+  top: 0;
+}
+
+/* layout/base.css */
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  min-block-size: 100vh;
+}
+
+/* layout/header.css */
+
+.header {
+  background-color: #fff;
+  padding-block: 1em;
+}
+
+
+.header::after {
+  bottom: 0;
+  box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
+  content: '';
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.header.is-active::after {
+  opacity: 1;
+}
+
+/* layout/main.css */
+
+.main {
+  padding-block: 6em;
+}
+
+/* modules/headline.css */
+
+h1 {
+  margin-block: 0 0.5em;
+}
+
+/* modules/navigation.css */
+
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__list--inline {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation__link {
+  color: inherit;
+  display: block;
+  padding-inline: 1em;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation__link--is-active {
+  background-color: #000;
+  border-radius: 999em;
+  color: #fff;
+}
+
+/* modules/paragraph.css */
+
+p {
+  padding-block: 1.5em;
 }

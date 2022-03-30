@@ -5,8 +5,7 @@ import {React, useState, useEffect} from 'react';
 
 function App() {
   const [phases, setPhases] = useState({})
-  
-  
+
   function fetchPhases(){
     fetch("http://localhost:3000/projects")
     .then(response => response.json())

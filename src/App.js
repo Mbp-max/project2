@@ -5,14 +5,15 @@ import {React, useState, useEffect} from 'react';
 
 function App() {
   const [phases, setPhases] = useState({})
-
-  useEffect(getPhases,[])
-
-  function getPhases(){
+  
+  
+  function fetchPhases(){
     fetch("http://localhost:3000/projects")
     .then(response => response.json())
     .then(data => setPhases(data))
   }
+  useEffect(fetchPhases,[])
+
   return (
     <div className="App">
       <Header phases={phases}/>

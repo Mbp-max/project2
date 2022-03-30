@@ -1,13 +1,12 @@
 {
-    "projects":
-    [
+    "projects":[
     {
         "id": 0,
-        "phase": "0",
+        "Phase": "0",
         "name": "Pre-Work",
-        "description": "",
-        "videos":{},
-        "feedback":
+        "Description": "",
+        "videos":"",
+        "Feedback":
         {
             "username": "",
             "content": ""
@@ -15,11 +14,11 @@
     },
     {
         "id": 1,
-        "phase": "1",
+        "Phase": "1",
         "name": "Front-End Development - Javascript",
-        "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
+        "Description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
         "videos":{},
-        "feedback":
+        "Feedback":
         {
             "username": "",
             "content": ""

@@ -1,9 +1,9 @@
 import React,{useState} from "react"
-import Feedback from "./feedback"
+import Feedback from "./Feedback"
 import Videos from "./Videos"
 
 
-function Phase({show, name,description,videos}) {
+function Phase({show, name,description,videos,formState}) {
 
 
 // const [show,setShow]=useState(false)
@@ -13,7 +13,7 @@ function Phase({show, name,description,videos}) {
 //     console.log("s")
 // }
 // console.log(description)
-console.log(videos)
+
 
 return(
     
@@ -21,9 +21,9 @@ return(
     {show ? <div>
     <h1>{name}</h1>
     <div>{description}</div>
-    <div><Feedback/></div>
     <br></br>
-    <div><Videos videos={videos} /></div>
+    <div><Videos videos={videos} />
+    <Feedback formState={formState} /></div>
     </div>
     : 
     <>

@@ -5,6 +5,7 @@ import Videos from "./Videos"
 
 function Phase({show, name,description,videos}) {
 
+
 // const [show,setShow]=useState(false)
 
 // function handleChange() {
@@ -20,8 +21,7 @@ return(
     {show ? <div>
     <h1>{name}</h1>
     <div>{description}</div>
-    <br></br>
-    <div><Feedback /></div>
+    <div><Feedback/></div>
     <br></br>
     <div><Videos videos={videos} /></div>
     </div>

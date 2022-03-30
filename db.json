@@ -1,6 +1,7 @@
 {
-    "projects":[
+  "projects": [
     {
+<<<<<<< HEAD
         "id": 0,
         "Phase": "0",
         "name": "Phase 0: Pre-Work",
@@ -24,32 +25,31 @@
             "username": "",
             "content": ""
         }
+=======
+      "id": 0,
+      "Phase": "0",
+      "name": "Phase 0: Pre-Work",
+      "description": "",
+      "videos": {}
+      
+>>>>>>> c3cfda305c4a05d2480a5c8eafb2c294949afd85
     },
     {
-        "id": 1,
-        "Phase": "1",
-        "name": "Phase 1: Front-End Development - Javascript",
-        "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
-        "videos":{},
-        "feedback":
-        {
-            "username": "",
-            "content": ""
-        }
+      "id": 1,
+      "Phase": "1",
+      "name": "Phase 1: Front-End Development - Javascript",
+      "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
+      "videos": {}
     },
     {
-        "id": 2,
-        "Phase": "2",
-        "name": "Phase 2: Front-End Web Applications",
-        "description": "Students learn React, an object-oriented JavaScript framework, and have the opportunity to pick up key industry skills by building a project that interacts with an API.",
-        "videos":{},
-        "feedback":
-        {
-            "username": "",
-            "content": ""
-        }
+      "id": 2,
+      "Phase": "2",
+      "name": "Phase 2: Front-End Web Applications",
+      "description": "Students learn React, an object-oriented JavaScript framework, and have the opportunity to pick up key industry skills by building a project that interacts with an API.",
+      "videos": {}
     },
     {
+<<<<<<< HEAD
         "id": 3,
         "Phase": "3",
         "name": "Phase 3: Back-End Development",
@@ -61,30 +61,65 @@
             "username": "",
             "content": ""
         }
+=======
+      "id": 3,
+      "Phase": "3",
+      "name": "Phase 3: Back-End Development",
+      "description": "Students gain a thorough understanding of back-end development basics, using languages such as Ruby,before getting comfortable with object-oriented programming and storing information in databases using SQL and Object Relational Mappers.",
+      "videos": {}
+>>>>>>> c3cfda305c4a05d2480a5c8eafb2c294949afd85
     },
     {
-        "id": 4,
-        "Phase": "4",
-        "name": "Phase 4: Back-End Web APIs",
-        "description": "First, students will learn Rails - an object-oriented, Ruby framework, before using it to create their own JSON API along with productive, scalable front-ends with React and Redux, creating slick, functional, reactive code.",
-        "videos":{},
-        "feedback":
-        {
-            "username": "",
-            "content": ""
-        }
+      "id": 4,
+      "Phase": "4",
+      "name": "Phase 4: Back-End Web APIs",
+      "description": "First, students will learn Rails - an object-oriented, Ruby framework, before using it to create their own JSON API along with productive, scalable front-ends with React and Redux, creating slick, functional, reactive code.",
+      "videos": {}
     },
     {
-        "id": 5,
-        "Phase": "5",
-        "name": "Phase 5: Cumulative Project",
-        "description": "After completing four curriculum phases focused on group projects, students work with instructors to come up with solo project concepts and spend dedicated time building truly sophisticated applications on their own. Students receive plenty of instructor feedback along the way, while diving deep into various advanced technologies needed to bring their concepts to life.",
-        "videos":{},
-        "feedback":
-        {
-            "username": "",
-            "content": ""
-        }
+      "id": 5,
+      "Phase": "5",
+      "name": "Phase 5: Cumulative Project",
+      "description": "After completing four curriculum phases focused on group projects, students work with instructors to come up with solo project concepts and spend dedicated time building truly sophisticated applications on their own. Students receive plenty of instructor feedback along the way, while diving deep into various advanced technologies needed to bring their concepts to life.",
+      "videos": {}
     }
-]
+  ],
+  "feedback":[{
+      "id": 0,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+    },
+    {
+      "id": 1,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+
+    },
+    {
+      "id": 2,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+
+    },
+     {
+      "id": 3,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+
+    }, 
+    {
+      "id": 4,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+
+    },
+    {
+      "id": 5,
+      "username": "JackieTung",
+      "content": "Really helpful!"
+
+    }
+  ]
 }
+
+

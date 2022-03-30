@@ -1,22 +1,35 @@
 import React,{useState} from "react"
-function Phase(props){
-    const [show,setShow]=useState(false)
- const {id,name,Description,Phase,Feedback:{username,content},videos}=props.phase
+import Feedback from "./feedback"
+import Videos from "./Videos"
 
- function handleChange() {
-    setShow(!show) 
-    console.log("s")
-}
 
-    return(
-    <>
-    <h1 onClick={handleChange}>Phase{id}:{name}</h1>
-        {show ? <div>
-    <div>{Description}</div>
-    <br></br>
-    <div>videos</div>
-    <div>{username}:{content}</div> </div>: null }
+function Phase({show, name,description,videos}) {
+
+// const [show,setShow]=useState(false)
+
+// function handleChange() {
+//     setShow(!show) 
+//     console.log("s")
+// }
+// console.log(description)
+
+return(
     
+    <>
+    {show ? <div>
+    <div>{name}</div>
+    <div>{description}</div>
+    <br></br>
+    <div><Feedback /></div>
+    <br></br>
+    <div><Videos videos={videos} /></div>
+    </div>
+    : 
+    <>
+    <div>Welcome To Your Software Engineering Career</div>
+    <h1>Use This Guide To Achieve Success At Your BootCamp </h1>
+    <img src="https://cdn.geekwire.com/wp-content/uploads/2018/09/Flatiron-School_Classroom-1260x840.jpg" alt="img-FlatIron" className/>
+    </>}
     </>
     )
 }

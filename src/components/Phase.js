@@ -12,12 +12,13 @@ function Phase({show, name,description,videos}) {
 //     console.log("s")
 // }
 // console.log(description)
+console.log(videos)
 
 return(
     
     <>
     {show ? <div>
-    <div>{name}</div>
+    <h1>{name}</h1>
     <div>{description}</div>
     <br></br>
     <div><Feedback /></div>

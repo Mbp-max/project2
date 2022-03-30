@@ -46,7 +46,7 @@ function Header({phases}){
 <main className="main">
 
   <div className="grid">
-    <Phase phase= {currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} show={show}/>
+    <Phase phase= {currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} show={show} videos={currentPhase.videos}/>
   </div>
 
 </main>

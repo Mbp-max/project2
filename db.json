@@ -5,7 +5,20 @@
         "Phase": "0",
         "name": "Phase 0: Pre-Work",
         "description": "",
-        "videos":{},
+        "videos":[
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           },
+            { 
+            "title":"HTML In 10 Minutes",
+            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+           },
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           }
+        ],
         "feedback":
         {
             "username": "",
@@ -41,7 +54,8 @@
         "Phase": "3",
         "name": "Phase 3: Back-End Development",
         "description": "Students gain a thorough understanding of back-end development basics, using languages such as Ruby,before getting comfortable with object-oriented programming and storing information in databases using SQL and Object Relational Mappers.",
-        "videos":{},
+        "videos":{}
+        ,
         "feedback":
         {
             "username": "",

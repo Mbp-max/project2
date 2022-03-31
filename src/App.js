@@ -1,30 +1,20 @@
 import './App.css';
-import Header from './components/Header';
-import {React, useState, useEffect} from 'react';
+import { BrowserRouter as Router,Switch,Route, Routes } from "react-router-dom";
+import Nav from './components/Nav';
+import Phases from './components/Phases';
+import {useState, useEffect} from 'react';
+import Home from './components/Home';
 
 function App() {
-  const [phases, setPhases] = useState({})
-  const [feedback, setFeedback] = useState({})
-
-  function fetchPhases(){
-    fetch("http://localhost:3000/projects")
-    .then(response => response.json())
-    .then(data => setPhases(data))
-  }
-  useEffect(fetchPhases,[])
-  useEffect(feedbackData, [])
-  
-  function feedbackData(){
-    fetch(`http://localhost:3000/feedback/`)
-    .then(res => res.json())
-    .then(data => setFeedback(data))
-    
-  }
   
   return (
+    <Router>
     <div className="App">
-      <Header phases={phases} feedback={feedback} setFeedback={setFeedback}/>
+      <Nav />
+      <Route path="/phases" component={Phases}/> 
+      <Route path="/" exact component={Home}/>
     </div>
+    </Router>
   );
 }
 

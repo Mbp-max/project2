@@ -31,7 +31,7 @@ return(
     <div className="grid">
       <nav className="navigation">
         <ul className="navigation__list navigation__list--inline">
-          <Router>
+          
           <li className="navigation__item"><a href="#" className="navigation__link navigation__link--is-active" onClick={homeButton}>Home</a></li>
           <li className="navigation__item" ><a href="#" className="navigation__link" onClick={handlePhase} id="0">Pre-Work</a></li>
           <li className="navigation__item" ><a href="#" className="navigation__link" onClick={handlePhase} id="1">Phase One</a></li>
@@ -39,7 +39,7 @@ return(
           <li className="navigation__item" ><a href="#" className="navigation__link" onClick={handlePhase} id="3">Phase Three</a></li>
           <li className="navigation__item" ><a href="#" className="navigation__link" onClick={handlePhase} id="4">Phase Four</a></li>
           <li className="navigation__item" ><a href="#" className="navigation__link" onClick={handlePhase} id="5">Phase Five</a></li>
-          </Router>
+          
         </ul>
       </nav>
     </div>

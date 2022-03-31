@@ -1,11 +1,12 @@
 import React from "react"
 
-function FeedbackList({currentFeedback}){ 
-const {username,content} = currentFeedback
+function FeedbackList({feed, handleChange}){ 
+
+const {username,content, phase} = feed
 
 return(
 <>
-<div>Feedback</div>
+
             <ul>Username: {username}</ul>
             <ul>Comment: {content}</ul>
 </>

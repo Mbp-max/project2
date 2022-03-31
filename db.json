@@ -1,168 +1,279 @@
 {
   "projects": [
     {
-        "id": 0,
-        "Phase": "0",
-        "name": "Phase 0: Pre-Work",
-        "description": "",
-        "videos":[
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           },
-            { 
-            "title":"HTML In 10 Minutes",
-            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-           },
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           }
-        ],
-        "feedback":
+      "id": 0,
+      "Phase": "0",
+      "name": "Phase 0: Pre-Work",
+      "description": "CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is, with a simple syntax example, and also covers some key terms about the language. CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.                                              HTML: HTML, or HyperText Markup Language, allows web users to create and structure sections, paragraphs, and links using elements, tags, and attributes. However, it’s worth noting that HTML is not considered a programming language as it can’t create dynamic functionality. HTML has a lot of use cases, namely:   Web development. Developers use HTML code to design how a browser displays web page elements, such as text, hyperlinks, and media files. Internet navigation. Users can easily navigate and insert links between related pages and websites as HTML is heavily used to embed hyperlinks. Web documentation. HTML makes it possible to organize and format documents, similarly to Microsoft Word. Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful for you.",
+      "videos": [
         {
-            "username": "",
-            "content": ""
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+        },
+        {
+          "title": "HTML In 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=MDLn5-zSQQI"
+        },
+        {
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
         }
+      ],
+      "feedback": {
+        "username": "",
+        "content": ""
+      }
     },
     {
       "id": 1,
       "Phase": "1",
       "name": "Phase 1: Front-End Development - Javascript",
       "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
-      "videos":[
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       },
-        { 
-        "title":"HTML In 10 Minutes",
-        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-       },
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       }
-    ]
+      "videos": [
+        {
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+        },
+        {
+          "title": "HTML In 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=MDLn5-zSQQI"
+        },
+        {
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+        }
+      ]
     },
     {
       "id": 2,
       "Phase": "2",
       "name": "Phase 2: Front-End Web Applications",
       "description": "Students learn React, an object-oriented JavaScript framework, and have the opportunity to pick up key industry skills by building a project that interacts with an API.",
-      "videos":[
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       },
-        { 
-        "title":"HTML In 10 Minutes",
-        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-       },
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       }
-    ]
+      "videos": [
+        {
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+        },
+        {
+          "title": "HTML In 10 Minutes",
+          "url": "https://www.youtube.com/watch?v=MDLn5-zSQQI"
+        },
+        {
+          "title": "Learn Git In 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+        }
+      ]
     },
     {
       "id": 3,
       "Phase": "3",
       "name": "Phase 3: Back-End Development",
       "description": "Students gain a thorough understanding of back-end development basics, using languages such as Ruby,before getting comfortable with object-oriented programming and storing information in databases using SQL and Object Relational Mappers.",
-      "videos":[
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       },
-        { 
-        "title":"HTML In 10 Minutes",
-        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-       },
-        { 
-        "title":"Learn Git In 15 Minutes",
-        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-       }
-    ]
+      "videos": [
+        {
+          "title": "What You Need to Know to be a Backend Developer",
+          "url": "https://www.youtube.com/watch?v=0Kv_k4ypj6o"
+        },
+        {
+          "title": "How The Backend Works",
+          "url": "https://www.youtube.com/watch?v=4r6WdaY3SOA"
+        },
+        {
+          "title": "What is HTTP? | HTTP explained in 6 minutes ",
+          "url": "https://www.youtube.com/watch?v=M7nO5Sw1esU"
+        },
+        {
+          "title": "DNS Explained",
+          "url": "https://www.youtube.com/watch?v=72snZctFFtA"
+        },
+        {
+          "title": "What is a Server? Servers vs Desktops Explained",
+          "url": "https://www.youtube.com/watch?v=UjCDWCeHCzY"
+        },
+        {
+          "title": "What is an API?",
+          "url": "https://www.youtube.com/watch?v=s7wmiS2mSXY"
+        },
+        {
+          "title": "All You Need To Know About Backend Engineering ",
+          "url": "https://www.youtube.com/watch?v=cLK5vqPv6JQ"
+        }
+      ]
     },
     {
       "id": 4,
       "Phase": "4",
       "name": "Phase 4: Back-End Web APIs",
       "description": "First, students will learn Rails - an object-oriented, Ruby framework, before using it to create their own JSON API along with productive, scalable front-ends with React and Redux, creating slick, functional, reactive code.",
-      "videos":[
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           },
-            { 
-            "title":"HTML In 10 Minutes",
-            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-           },
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           }
-        ]
+      "videos": [
+        {
+          "title": "How much can you learn about the Backend from its API?",
+          "url": "https://www.youtube.com/watch?v=P39KP7fpxQE"
+        },
+        {
+          "title": "Build your first Rails app - blog with comments (tutorial)",
+          "url": "https://www.youtube.com/watch?v=wbZ6yrVxScM?"
+        },
+        {
+          "title": "Rails 6 API Tutorial - Basic controllers and models ",
+          "url": "https://www.youtube.com/watch?v=nCb_mqAKusg&t=2s"
+        },
+        {
+          "title": "Rails 6 API Tutorial - Building a POST Endpoint",
+          "url": "https://www.youtube.com/watch?v=rFHCMu2t4SY"
+        },
+        {
+          "title": "Rails 6 API Tutorial - Destroy Controller Action",
+          "url": "https://www.youtube.com/watch?v=kzdE91zIp-k"
+        },
+        {
+          "title": "Rails 6 API Tutorial - RSpec API Tests POST/DELETE",
+          "url": "https://www.youtube.com/watch?v=u7TglqnXbDw"
+        }
+      ]
     },
     {
       "id": 5,
       "Phase": "5",
       "name": "Phase 5: Cumulative Project",
       "description": "After completing four curriculum phases focused on group projects, students work with instructors to come up with solo project concepts and spend dedicated time building truly sophisticated applications on their own. Students receive plenty of instructor feedback along the way, while diving deep into various advanced technologies needed to bring their concepts to life.",
-      "videos":[
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           },
-            { 
-            "title":"HTML In 10 Minutes",
-            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
-           },
-            { 
-            "title":"Learn Git In 15 Minutes",
-            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
-           }
-        ]
+      "videos": [
+        {
+          "title": "How I Plan My Coding Projects",
+          "url": "https://www.youtube.com/watch?v=qS4mvrWWO_M"
+        },
+        {
+          "title": "8 Steps To Building A Successful Project",
+          "url": "https://www.youtube.com/watch?v=wTrcabKENrY"
+        },
+        {
+          "title": "Full timelapse + walkthrough of building my website",
+          "url": "https://www.youtube.com/watch?v=GVTRJa4B4fY"
+        },
+        {
+          "title": "lofi hip hop radio - beats to relax/study to",
+          "url": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+        }
+      ]
     }
   ],
-  "feedback":[
+  "feedback": [
     {
       "id": 0,
+      "phase": 0,
       "username": "JackieTung",
-      "content": "Really helpful!"
+      "content": "Really helpful pre-work!"
     },
     {
       "id": 1,
+      "phase": 3,
       "username": "JackieTung",
-      "content": "Really helpful!"
-
+      "content": "Really helpful phase 3!"
     },
     {
       "id": 2,
+      "phase": 4,
       "username": "JackieTung",
-      "content": "Really helpful!"
-
+      "content": "Really helpful phase 4 !"
     },
-     {
+    {
       "id": 3,
+      "phase": 5,
       "username": "JackieTung",
       "content": "Really helpful!"
-
-    }, 
+    },
     {
       "id": 4,
+      "phase": 0,
       "username": "JackieTung",
       "content": "Really helpful!"
-
     },
     {
       "id": 5,
+      "phase": 2,
       "username": "JackieTung",
       "content": "Really helpful!"
-
+    },
+    {
+      "phase": 1,
+      "username": "BillyBob",
+      "content": "Hello",
+      "id": 6
+    },
+    {
+      "username": "BillyBob",
+      "content": "Made it to phase two!",
+      "phase": 2,
+      "id": 7
+    },
+    {
+      "username": "BillyBob",
+      "content": "Made it to phase two!",
+      "phase": 2,
+      "id": 8
+    },
+    {
+      "username": "Cool, we're on Phase 2",
+      "content": "fsdfsad",
+      "id": 9
+    },
+    {
+      "username": "BillyBob",
+      "content": "Goodbye",
+      "phase": 1,
+      "id": 10
+    },
+    {
+      "username": "sasa",
+      "content": "dsadda",
+      "phase": 1,
+      "id": 11
+    },
+    {
+      "username": "BillyBob",
+      "content": "dffdfd",
+      "id": 12
+    },
+    {
+      "username": "dsdsfds",
+      "content": "das",
+      "id": 13
+    },
+    {
+      "username": "BillyBob",
+      "content": "Hello On to phase 4\n",
+      "phase": 3,
+      "id": 14
+    },
+    {
+      "username": "BillyBob",
+      "content": "12121",
+      "phase": 3,
+      "id": 15
+    },
+    {
+      "username": "BillyBob",
+      "content": "hello otto 8",
+      "phase": 3,
+      "id": 16
+    },
+    {
+      "username": "BillyBob",
+      "content": "hello otto 8",
+      "phase": 3,
+      "id": 17
+    },
+    {
+      "username": "BillyBob",
+      "content": "hdhf",
+      "phase": 2,
+      "id": 18
+    },
+    {
+      "id": 20,
+      "phase": 0,
+      "username": "JackieTung",
+      "content": "Really helpful!"
     }
   ]
 }
-
-

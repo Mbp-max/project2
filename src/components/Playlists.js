@@ -1,13 +1,12 @@
 import ReactPlayer from "react-player";
 import Videoplayer from "./Videoplayer";
-function Playlists({video, handleOnClick}){
+import React,{useState, useEffect} from 'react';
+
+function Playlists({video, handleVideo}){
 const {title, url} = video
-function handleOnClick(e){
-    console.log("click")
-    return <Videoplayer video={video}/>
-}
+
 return (
-    <li onClick={handleOnClick} id={url}>{title}</li>
+    <li onClick={handleVideo} id={url}>{title}</li>
 )
 }
 export default Playlists 

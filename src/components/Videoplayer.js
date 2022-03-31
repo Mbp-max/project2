@@ -1,7 +1,7 @@
 import ReactPlayer from "react-player";
-function Videoplayer({video}){
-    console.log(video)
-    const {title, url} = video
+function Videoplayer({chosenVideo}){
+
+    const {title, url} = chosenVideo
     return(
         <>
         <h2>{title}</h2>

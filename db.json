@@ -30,38 +30,104 @@
       "Phase": "1",
       "name": "Phase 1: Front-End Development - Javascript",
       "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
-      "videos": {}
+      "videos":[
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       },
+        { 
+        "title":"HTML In 10 Minutes",
+        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+       },
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       }
+    ]
     },
     {
       "id": 2,
       "Phase": "2",
       "name": "Phase 2: Front-End Web Applications",
       "description": "Students learn React, an object-oriented JavaScript framework, and have the opportunity to pick up key industry skills by building a project that interacts with an API.",
-      "videos": {}
+      "videos":[
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       },
+        { 
+        "title":"HTML In 10 Minutes",
+        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+       },
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       }
+    ]
     },
     {
       "id": 3,
       "Phase": "3",
       "name": "Phase 3: Back-End Development",
       "description": "Students gain a thorough understanding of back-end development basics, using languages such as Ruby,before getting comfortable with object-oriented programming and storing information in databases using SQL and Object Relational Mappers.",
-      "videos": {}
+      "videos":[
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       },
+        { 
+        "title":"HTML In 10 Minutes",
+        "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+       },
+        { 
+        "title":"Learn Git In 15 Minutes",
+        "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+       }
+    ]
     },
     {
       "id": 4,
       "Phase": "4",
       "name": "Phase 4: Back-End Web APIs",
       "description": "First, students will learn Rails - an object-oriented, Ruby framework, before using it to create their own JSON API along with productive, scalable front-ends with React and Redux, creating slick, functional, reactive code.",
-      "videos": {}
+      "videos":[
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           },
+            { 
+            "title":"HTML In 10 Minutes",
+            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+           },
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           }
+        ]
     },
     {
       "id": 5,
       "Phase": "5",
       "name": "Phase 5: Cumulative Project",
       "description": "After completing four curriculum phases focused on group projects, students work with instructors to come up with solo project concepts and spend dedicated time building truly sophisticated applications on their own. Students receive plenty of instructor feedback along the way, while diving deep into various advanced technologies needed to bring their concepts to life.",
-      "videos": {}
+      "videos":[
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           },
+            { 
+            "title":"HTML In 10 Minutes",
+            "url":"https://www.youtube.com/watch?v=MDLn5-zSQQI"
+           },
+            { 
+            "title":"Learn Git In 15 Minutes",
+            "url":"https://www.youtube.com/watch?v=USjZcfj8yxE"
+           }
+        ]
     }
   ],
-  "feedback":[{
+  "feedback":[
+    {
       "id": 0,
       "username": "JackieTung",
       "content": "Really helpful!"

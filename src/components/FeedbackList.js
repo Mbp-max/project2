@@ -1,16 +1,13 @@
 import React from "react"
 
-function FeedbackList({feed}){ 
-const {username,content} = feed
-
-console.log(feed)
-
+function FeedbackList({currentFeedback}){ 
+const {username,content} = currentFeedback
 
 return(
 <>
 <div>Feedback</div>
-            <ul>{username}</ul>
-            <ul>{content}</ul>
+            <ul>Username: {username}</ul>
+            <ul>Comment: {content}</ul>
 </>
 )
 }

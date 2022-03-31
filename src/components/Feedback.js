@@ -1,9 +1,9 @@
 import { useState,useEffect } from "react"
 import FeedbackList from "./FeedbackList"
 
-function Feedback({formState}){
-    console.log(formState)
-    const allFeedback = formState.map(feed =>{return < FeedbackList feed={feed}/>})
+function Feedback({currentFeedback}){
+    console.log(currentFeedback)
+  
   
 
     // function handleChange(e){
@@ -28,7 +28,7 @@ function Feedback({formState}){
     return (
         <>
         <br></br>
-        {allFeedback}
+        < FeedbackList currentFeedback={currentFeedback}/>
         <form name="new_feedback" >
             <input name="username" placeholder="Enter Your UserName"/> 
             <br></br>

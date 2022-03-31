@@ -8,6 +8,7 @@
   inline-size: 90%;
   margin-inline: auto;
   max-inline-size: 48em;
+  margin: center;
 }
 
 /* helpers/sticky.css */
@@ -73,6 +74,14 @@ body {
 
 h1 {
   margin-block: 0 0.5em;
+  margin: center;
+  text-align: center;
+  font-size: 32px;
+}
+h2 {
+  margin-block: 0 0.5em;
+  margin: center;
+  text-align: center;
 }
 
 /* modules/navigation.css */
@@ -93,6 +102,7 @@ h1 {
   display: block;
   padding-inline: 1em;
   text-decoration: none;
+  font-size: 13px;
 }
 
 .navigation__link--is-active {
@@ -105,4 +115,12 @@ h1 {
 
 p {
   padding-block: 1.5em;
+}
+
+.ironpic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 800px;
+  height: 500px;
 }

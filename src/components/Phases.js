@@ -56,7 +56,7 @@ return(
   </header>
   <main className="main">
     <div className="grid">
-      <div>{currentPhase.name}</div>
+      <h1>{currentPhase.name}</h1>
       {currentFeedback && <CurrentPhase setCurrentFeedback={setCurrentFeedback} currentPhase={currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} videos={currentPhase.videos} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/>}
     </div>
   </main>

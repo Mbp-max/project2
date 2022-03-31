@@ -6,7 +6,7 @@ const [currentPhase, setCurrentPhase] = useState({videos: [], name: "☝CLICK TH
 // const [currentPhase, setCurrentPhase] = useState(null)
 const [currentFeedback, setCurrentFeedback] = useState(null)
 const [phases, setPhases] = useState({})
-const [feedback, setFeedback] = useState({})
+const [feedback, setFeedback] = useState([])
 const [refetchFeedback, setRefetchFeedback] = useState(true)
 
 function fetchPhases(){
@@ -28,6 +28,8 @@ function handlePhase(e){
   setCurrentPhase(phases.find((phase) => (phase.Phase == name)));
   setCurrentFeedback(feedback.filter((feed) => (feed.phase == name)))  
 }
+
+// const currentFeedback = feedback.filter((feed) => (feed.phase == currentPhase.name))`
 console.log(feedback)
 console.log(phases)
 console.log(currentFeedback)
@@ -48,11 +50,11 @@ return(
           
         </ul>
       </nav>
-    </div>
+    </div> 
   </header>
   <main className="main">
     <div className="grid">
-      {currentFeedback && <CurrentPhase phase={currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} videos={currentPhase.videos} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/>}
+      {currentFeedback && <CurrentPhase setCurrentFeedback={setCurrentFeedback} phase={currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} videos={currentPhase.videos} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/>}
     </div>
   </main>
 </>

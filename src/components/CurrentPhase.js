@@ -3,7 +3,7 @@ import Feedback from "./Feedback"
 import Videos from "./Videos"
 
 
-function CurrentPhase({name,description,videos,currentFeedback,setRefetchFeedback, refetchFeedback}) {
+function CurrentPhase({setCurrentFeedback, name,description,videos,currentFeedback,setRefetchFeedback, refetchFeedback}) {
 
    console.log(videos)
     
@@ -15,7 +15,7 @@ function CurrentPhase({name,description,videos,currentFeedback,setRefetchFeedbac
         <br></br>
         <div><Videos videos={videos} />
         </div>
-        <div><Feedback  currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/></div>
+        <div><Feedback setCurrentFeedback={setCurrentFeedback} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/></div>
         </>
         )
     }

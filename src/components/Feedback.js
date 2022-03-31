@@ -1,6 +1,6 @@
 import FeedbackList from "./FeedbackList"
 import {useState, useEffect} from "react";
-function Feedback({currentFeedback, setRefetchFeedback,refetchFeedback }){
+function Feedback({setCurrentFeedback, currentFeedback, setRefetchFeedback,refetchFeedback }){
     const [formState, setFormState] = useState([])
     // const id= currentFeedback.id
     console.log(currentFeedback)
@@ -34,7 +34,7 @@ function Feedback({currentFeedback, setRefetchFeedback,refetchFeedback }){
         body: JSON.stringify(newFeedback)
         })
         .then(res => res.json())
-        .then(data => setFormState(data));
+        .then(data => setCurrentFeedback(prevState =>[ ...prevState, data]));
         
     }
     const allFeed = currentFeedback.map(feed => { return < FeedbackList feed={feed} handleChange={handleChange}/>})

@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Phases from './components/Phases';
 import {useState, useEffect} from 'react';
 import Home from './components/Home';
+import AboutUs from './components/AboutUs';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <Route path="/phases" component={Phases}/> 
       <Route path="/" exact component={Home}/>
+      <Route path="/AboutUs" exact component={AboutUs}/>
     </div>
     </Router>
   );

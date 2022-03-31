@@ -14,7 +14,7 @@ return(
           <Link to='/phases'>
           <li className="navigation__item" ><a href="#" className="navigation__link"  id="0">Phases</a></li>
           </Link>
-          <Link>
+          <Link to='/AboutUs'>
           <li className="navigation__item" ><a href="#" className="navigation__link"  id="1">About Us</a></li>
           </Link>
         </ul>

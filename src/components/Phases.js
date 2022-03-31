@@ -2,10 +2,12 @@ import {useState, useEffect} from 'react';
 import CurrentPhase from './CurrentPhase';
 
 function Phases(){
+// const [currentPhase, setCurrentPhase] = useState({})
 const [currentPhase, setCurrentPhase] = useState({videos: [], name: "☝CLICK THE PHASE BUTTONS ABOVE☝"})
+// console.log(currentPhase)
 // const [currentPhase, setCurrentPhase] = useState(null)
 const [currentFeedback, setCurrentFeedback] = useState(null)
-const [phases, setPhases] = useState({})
+const [phases, setPhases] = useState([])
 const [feedback, setFeedback] = useState([])
 const [refetchFeedback, setRefetchFeedback] = useState(true)
 
@@ -30,10 +32,10 @@ function handlePhase(e){
 }
 
 // const currentFeedback = feedback.filter((feed) => (feed.phase == currentPhase.name))`
-console.log(feedback)
-console.log(phases)
-console.log(currentFeedback)
-console.log(currentPhase)
+// console.log(feedback)
+// console.log(phases)
+// console.log(currentFeedback)
+// console.log(currentPhase)
 return( 
   <>
   <header className="header sticky sticky--top js-header">
@@ -54,7 +56,8 @@ return(
   </header>
   <main className="main">
     <div className="grid">
-      {currentFeedback && <CurrentPhase setCurrentFeedback={setCurrentFeedback} phase={currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} videos={currentPhase.videos} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/>}
+      <div>{currentPhase.name}</div>
+      {currentFeedback && <CurrentPhase setCurrentFeedback={setCurrentFeedback} currentPhase={currentPhase} name={currentPhase.name} phaseName={currentPhase.Phase} description={currentPhase.description} videos={currentPhase.videos} currentFeedback={currentFeedback} setRefetchFeedback={setRefetchFeedback} refetchFeedback={refetchFeedback}/>}
     </div>
   </main>
 </>

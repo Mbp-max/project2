@@ -3,11 +3,11 @@ import {useState, useEffect} from "react";
 function Feedback({setCurrentFeedback, currentFeedback, setRefetchFeedback,refetchFeedback }){
     const [formState, setFormState] = useState([])
     // const id= currentFeedback.id
-    console.log(currentFeedback)
+    // console.log(currentFeedback)
 
-    const oneFeed = currentFeedback.find(feed => feed.phase)
-    const currentFeedPhase = oneFeed.phase
-    console.log(currentFeedPhase)
+    // const oneFeed = currentFeedback.find(feed => feed.phase)
+    // const currentFeedPhase = oneFeed.phase
+    // console.log(currentFeedPhase)
     
     function handleChange(e){
         const key = [e.target.name]
@@ -22,7 +22,7 @@ function Feedback({setCurrentFeedback, currentFeedback, setRefetchFeedback,refet
         const newFeedback = {
             username,
             content,
-            phase: currentFeedPhase
+            // phase: currentFeedPhase
         }
         e.preventDefault()
         fetch(`http://localhost:3000/feedback/`,{

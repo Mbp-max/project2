@@ -8,6 +8,7 @@ return(
     <div className="grid">
       <nav className="navigation">
         <ul className="navigation__list navigation__list--inline">
+
           <Link to='/'>
           <li className="navigation__item"><a href="#" className="navigation__link navigation__link--is-active" >Home</a></li>
           </Link>
@@ -17,6 +18,7 @@ return(
           <Link to='/AboutUs'>
           <li className="navigation__item" ><a href="#" className="navigation__link"  id="1">About Us</a></li>
           </Link>
+
         </ul>
       </nav>
     </div>

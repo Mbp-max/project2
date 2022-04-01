@@ -11,7 +11,7 @@ function CurrentPhase({setCurrentFeedback, name,description,videos,currentFeedba
         
         <>
         {/* <h1>{name}</h1> */}
-        <div>{description}</div>
+        <div className="font">{description} </div>
         <br></br>
         <div><Videos videos={videos} />
         </div>

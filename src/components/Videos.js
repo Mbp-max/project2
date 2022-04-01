@@ -23,7 +23,7 @@ function Videos ({videos}){
     <>
         <h1>Your Curated Playlist</h1>
         <h2>⏬Click to Watch Any Of the Below Videos⏬</h2>
-        {videoPlaylist}
+        <ol class="gradient-list">{videoPlaylist}</ol>
         {noVideo ? <Videoplayer chosenVideo={chosenVideo}/> :
         <div>
         <ReactPlayer

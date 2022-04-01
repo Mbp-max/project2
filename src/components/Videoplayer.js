@@ -10,9 +10,11 @@ function Videoplayer({chosenVideo}){
         <h2>{title}</h2>
 
     <div>
+      <center>
           <ReactPlayer
             url={url}
-          />
+            />
+            </center>
     </div>
     </>
     )

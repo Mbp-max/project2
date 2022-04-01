@@ -31,16 +31,32 @@
       "description": "After diving into the fundamentals of programming, students get comfortable with JavaScript basics, interacting with the DOM, and event listeners",
       "videos": [
         {
-          "title": "Learn Git In 15 Minutes",
-          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+          "title": "What is JavaScript?",
+          "url": "https://www.youtube.com/watch?v=upDLs1sn7g4&t"
         },
         {
-          "title": "HTML In 10 Minutes",
-          "url": "https://www.youtube.com/watch?v=MDLn5-zSQQI"
+          "title": "Javascript Variables & Data Types",
+          "url": "https://www.youtube.com/watch?v=edlFjlzxkSI"
         },
         {
-          "title": "Learn Git In 15 Minutes",
-          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+          "title": "Javascript If Else Statements",
+          "url": "https://www.youtube.com/watch?v=_5SgikgFf0U"
+        },
+        {
+          "title": "JavaScript Functions",
+          "url": "https://www.youtube.com/watch?v=N8ap4k_1QEQ"
+        },
+        {
+          "title": "WHAT IS A CALLBACK FUNCTION IN JAVASCRIPT?",
+          "url": "https://www.youtube.com/watch?v=qtfi4-8dj9c"
+        },
+        {
+          "title": "8 Must Know JavaScript Array Methods",
+          "url": "https://www.youtube.com/watch?v=R8rmfD9Y5-c"
+        },
+        {
+          "title": "Learn Fetch API in 6 Minutes",
+          "url": "https://www.youtube.com/watch?v=cuEtnrL9-H0&t=2s"
         }
       ]
     },
@@ -51,16 +67,36 @@
       "description": "Students learn React, an object-oriented JavaScript framework, and have the opportunity to pick up key industry skills by building a project that interacts with an API.",
       "videos": [
         {
-          "title": "Learn Git In 15 Minutes",
-          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+          "title": "What Is React (React js) & Why Is It So Popular?",
+          "url": "https://www.youtube.com/watch?v=N3AkSS5hXMA"
         },
         {
-          "title": "HTML In 10 Minutes",
-          "url": "https://www.youtube.com/watch?v=MDLn5-zSQQI"
+          "title": "ReactJS Tutorial - 4 - Components",
+          "url": "https://www.youtube.com/watch?v=Y2hgEGPzTZY"
         },
         {
-          "title": "Learn Git In 15 Minutes",
-          "url": "https://www.youtube.com/watch?v=USjZcfj8yxE"
+          "title": "React State Vs Props",
+          "url": "https://www.youtube.com/watch?v=IYvD9oBCuJI"
+        },
+        {
+          "title": "Passing Data with Props",
+          "url": "https://www.youtube.com/watch?v=GIU8ekYndKw"
+        },
+        {
+          "title": "Event Handling",
+          "url": "https://www.youtube.com/watch?v=Znqv84xi8Vs"
+        },
+        {
+          "title": "How To Create Forms In React",
+          "url": "https://www.youtube.com/watch?v=bU_eq8qyjic"
+        },
+        {
+          "title": "React Hooks Explained",
+          "url": "https://www.youtube.com/watch?v=O6P86uwfdR0"
+        },
+        {
+          "title": "React For Beginners",
+          "url": "https://www.youtube.com/watch?v=Law7wfdg_ls"
         }
       ]
     },
@@ -165,161 +201,14 @@
       "content": "Really helpful pre-work!"
     },
     {
-      "id": 1,
-      "phase": 3,
-      "username": "JackieTung",
-      "content": "Really helpful phase 3!"
-    },
-    {
-      "id": 2,
-      "phase": 4,
-      "username": "JackieTung",
-      "content": "Really helpful phase 4 !"
-    },
-    {
-      "id": 3,
-      "phase": 5,
-      "username": "JackieTung",
-      "content": "Really helpful!"
-    },
-    {
-      "id": 4,
-      "phase": 0,
-      "username": "JackieTung",
-      "content": "Really helpful!"
-    },
-    {
-      "id": 5,
-      "phase": 2,
-      "username": "JackieTung",
-      "content": "Really helpful!"
-    },
-    {
-      "phase": 1,
       "username": "BillyBob",
-      "content": "Hello",
-      "id": 6
+      "content": "Woohoo, passed my coding challenge!",
+      "id": 1
     },
     {
-      "username": "BillyBob",
-      "content": "Made it to phase two!",
-      "phase": 2,
-      "id": 7
-    },
-    {
-      "username": "BillyBob",
-      "content": "Made it to phase two!",
-      "phase": 2,
-      "id": 8
-    },
-    {
-      "username": "Cool, we're on Phase 2",
-      "content": "fsdfsad",
-      "id": 9
-    },
-    {
-      "username": "BillyBob",
-      "content": "Goodbye",
-      "phase": 1,
-      "id": 10
-    },
-    {
-      "username": "sasa",
-      "content": "dsadda",
-      "phase": 1,
-      "id": 11
-    },
-    {
-      "username": "BillyBob",
-      "content": "dffdfd",
-      "id": 12
-    },
-    {
-      "username": "dsdsfds",
-      "content": "das",
-      "id": 13
-    },
-    {
-      "username": "BillyBob",
-      "content": "Hello On to phase 4\n",
-      "phase": 3,
-      "id": 14
-    },
-    {
-      "username": "BillyBob",
-      "content": "12121",
-      "phase": 3,
-      "id": 15
-    },
-    {
-      "username": "BillyBob",
-      "content": "hello otto 8",
-      "phase": 3,
-      "id": 16
-    },
-    {
-      "username": "BillyBob",
-      "content": "hello otto 8",
-      "phase": 3,
-      "id": 17
-    },
-    {
-      "username": "BillyBob",
-      "content": "hdhf",
-      "phase": 2,
-      "id": 18
-    },
-    {
-      "id": 20,
-      "phase": 0,
-      "username": "JackieTung",
-      "content": "Really helpful!"
-    },
-    {
-      "username": "2",
-      "content": "sdafsdaf",
-      "phase": 2,
-      "id": 21
-    },
-    {
-      "username": "2",
-      "content": "sdafsdafsadaffa",
-      "phase": 2,
-      "id": 22
-    },
-    {
-      "username": "Nick",
-      "content": "REACT REFETCH!!!\n",
-      "phase": 2,
-      "id": 23
-    },
-    {
-      "username": "sdfgsdg",
-      "content": "sdfgfdgsdf",
-      "phase": 2,
-      "id": 24
-    },
-    {
-      "username": "adfadsf",
-      "content": "fasdfdsafasdf",
-      "phase": 2,
-      "id": 25
-    },
-    {
-      "username": "2322",
-      "content": "232",
-      "phase": 4,
-      "id": 26
-    },
-    {
-      "username": "23",
-      "content": "23",
-      "id": 27
-    },
-    {
-      "username": "2",
-      "content": "2",
-      "id": 28
+      "username": "Mario",
+      "content": "Coming up with the idea for the project was hard ! Thanks to this, I was able to get it done in a week. Thank you Mario & Jackie.",
+      "id": 2
     }
   ]
 }

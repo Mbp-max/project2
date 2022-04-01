@@ -229,3 +229,12 @@ li {
   background-color: rgb(255, 255, 255);
   font-weight: bold;
 }
+.MariosPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 150px;
+  width: 150px;
+  border-radius: 60px
+}
